@@ -13,23 +13,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FAD8C59D175D107B004EEEC7 /* PBXContainerItemProxy */ = {
+		FAD8C5AE175D114C004EEEC7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FAD8C598175D107B004EEEC7 /* GBCli.xcodeproj */;
+			containerPortal = FAD8C5AA175D114C004EEEC7 /* GBCli.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 734849FC1511FD010031EF85;
 			remoteInfo = GBCli;
 		};
-		FAD8C5A5175D108E004EEEC7 /* PBXContainerItemProxy */ = {
+		FAD8C5B6175D1151004EEEC7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FAD8C59F175D108E004EEEC7 /* Krush.xcodeproj */;
+			containerPortal = FAD8C5B0175D1151004EEEC7 /* Krush.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 4602AFCF161E3AA1003C9EAC;
 			remoteInfo = Krush;
 		};
-		FAD8C5A7175D108E004EEEC7 /* PBXContainerItemProxy */ = {
+		FAD8C5B8175D1151004EEEC7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FAD8C59F175D108E004EEEC7 /* Krush.xcodeproj */;
+			containerPortal = FAD8C5B0175D1151004EEEC7 /* Krush.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 46C5EBE3161E746900064436;
 			remoteInfo = Tests;
@@ -55,8 +55,8 @@
 		FAD8C57D175D0E65004EEEC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAD8C580175D0E65004EEEC7 /* dylbert-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dylbert-Prefix.pch"; sourceTree = "<group>"; };
 		FAD8C581175D0E65004EEEC7 /* dylbert.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = dylbert.1; sourceTree = "<group>"; };
-		FAD8C598175D107B004EEEC7 /* GBCli.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GBCli.xcodeproj; path = "untitled folder/GBCli/GBCli.xcodeproj"; sourceTree = "<group>"; };
-		FAD8C59F175D108E004EEEC7 /* Krush.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Krush.xcodeproj; path = "untitled folder/Krush/Krush.xcodeproj"; sourceTree = "<group>"; };
+		FAD8C5AA175D114C004EEEC7 /* GBCli.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GBCli.xcodeproj; path = Dependencies/GBCli/GBCli.xcodeproj; sourceTree = "<group>"; };
+		FAD8C5B0175D1151004EEEC7 /* Krush.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Krush.xcodeproj; path = Dependencies/Krush/Krush.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,30 +115,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FAD8C599175D107B004EEEC7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FAD8C59E175D107B004EEEC7 /* GBCli */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FAD8C5A0175D108E004EEEC7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FAD8C5A6175D108E004EEEC7 /* Krush.framework */,
-				FAD8C5A8175D108E004EEEC7 /* Tests.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		FAD8C5A9175D109E004EEEC7 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				FAD8C59F175D108E004EEEC7 /* Krush.xcodeproj */,
-				FAD8C598175D107B004EEEC7 /* GBCli.xcodeproj */,
+				FAD8C5B0175D1151004EEEC7 /* Krush.xcodeproj */,
+				FAD8C5AA175D114C004EEEC7 /* GBCli.xcodeproj */,
 			);
 			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		FAD8C5AB175D114C004EEEC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD8C5AF175D114C004EEEC7 /* GBCli */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD8C5B1175D1151004EEEC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD8C5B7175D1151004EEEC7 /* Krush.framework */,
+				FAD8C5B9175D1151004EEEC7 /* Tests.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,12 +182,12 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = FAD8C599175D107B004EEEC7 /* Products */;
-					ProjectRef = FAD8C598175D107B004EEEC7 /* GBCli.xcodeproj */;
+					ProductGroup = FAD8C5AB175D114C004EEEC7 /* Products */;
+					ProjectRef = FAD8C5AA175D114C004EEEC7 /* GBCli.xcodeproj */;
 				},
 				{
-					ProductGroup = FAD8C5A0175D108E004EEEC7 /* Products */;
-					ProjectRef = FAD8C59F175D108E004EEEC7 /* Krush.xcodeproj */;
+					ProductGroup = FAD8C5B1175D1151004EEEC7 /* Products */;
+					ProjectRef = FAD8C5B0175D1151004EEEC7 /* Krush.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -198,25 +198,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		FAD8C59E175D107B004EEEC7 /* GBCli */ = {
+		FAD8C5AF175D114C004EEEC7 /* GBCli */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = GBCli;
-			remoteRef = FAD8C59D175D107B004EEEC7 /* PBXContainerItemProxy */;
+			remoteRef = FAD8C5AE175D114C004EEEC7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		FAD8C5A6175D108E004EEEC7 /* Krush.framework */ = {
+		FAD8C5B7175D1151004EEEC7 /* Krush.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Krush.framework;
-			remoteRef = FAD8C5A5175D108E004EEEC7 /* PBXContainerItemProxy */;
+			remoteRef = FAD8C5B6175D1151004EEEC7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		FAD8C5A8175D108E004EEEC7 /* Tests.app */ = {
+		FAD8C5B9175D1151004EEEC7 /* Tests.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = Tests.app;
-			remoteRef = FAD8C5A7175D108E004EEEC7 /* PBXContainerItemProxy */;
+			remoteRef = FAD8C5B8175D1151004EEEC7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
