@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA2C27E3175D1B6C00AE7193 /* PatchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2C27E2175D1B6C00AE7193 /* PatchHelper.m */; };
+		FA2C27E5175D30C700AE7193 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2C27E4175D30C700AE7193 /* Cocoa.framework */; };
 		FAD8C57B175D0E65004EEEC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD8C57A175D0E65004EEEC7 /* Foundation.framework */; };
 		FAD8C57E175D0E65004EEEC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C57D175D0E65004EEEC7 /* main.m */; };
 		FAD8C582175D0E65004EEEC7 /* dylbert.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FAD8C581175D0E65004EEEC7 /* dylbert.1 */; };
@@ -49,6 +51,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA2C27E1175D1B6C00AE7193 /* PatchHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatchHelper.h; sourceTree = "<group>"; };
+		FA2C27E2175D1B6C00AE7193 /* PatchHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatchHelper.m; sourceTree = "<group>"; };
+		FA2C27E4175D30C700AE7193 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		FAD8C577175D0E65004EEEC7 /* dylbert */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dylbert; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD8C57A175D0E65004EEEC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FAD8C57D175D0E65004EEEC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -111,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2C27E5175D30C700AE7193 /* Cocoa.framework in Frameworks */,
 				FAD8C57B175D0E65004EEEC7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -121,6 +127,7 @@
 		FAD8C56E175D0E65004EEEC7 = {
 			isa = PBXGroup;
 			children = (
+				FA2C27E4175D30C700AE7193 /* Cocoa.framework */,
 				FAD8C57C175D0E65004EEEC7 /* dylbert */,
 				FAD8C5A9175D109E004EEEC7 /* Dependencies */,
 				FAD8C579175D0E65004EEEC7 /* Frameworks */,
@@ -147,6 +154,8 @@
 		FAD8C57C175D0E65004EEEC7 /* dylbert */ = {
 			isa = PBXGroup;
 			children = (
+				FA2C27E1175D1B6C00AE7193 /* PatchHelper.h */,
+				FA2C27E2175D1B6C00AE7193 /* PatchHelper.m */,
 				FAD8C57D175D0E65004EEEC7 /* main.m */,
 				FAD8C581175D0E65004EEEC7 /* dylbert.1 */,
 				FAD8C57F175D0E65004EEEC7 /* Supporting Files */,
@@ -312,6 +321,7 @@
 				FAD8C60A175D1265004EEEC7 /* Patcher.m in Sources */,
 				FAD8C60B175D1265004EEEC7 /* SegmentCommand.m in Sources */,
 				FAD8C60C175D1265004EEEC7 /* SymtabCommand.m in Sources */,
+				FA2C27E3175D1B6C00AE7193 /* PatchHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +435,7 @@
 				FAD8C587175D0E65004EEEC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

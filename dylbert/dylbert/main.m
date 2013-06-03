@@ -2,20 +2,21 @@
 //  main.m
 //  dylbert
 //
-//  Created by bsmt on 6/3/13.
-//  Copyright (c) 2013 dil. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import "GBCommandLineParser.h"
 #import "GBOptionsHelper.h"
 #import "GBSettings.h"
+#import "PatchHelper.h"
 
 int main(int argc, char **argv)
 {
 @autoreleasepool
 {
     GBSettings *settings = [GBSettings settingsWithName:@"Settings" parent:nil];
+    NSMutableDictionary *settingsDict = [[NSMutableDictionary alloc] init];
+    
     GBOptionsHelper *options = [[GBOptionsHelper alloc] init];
     options.applicationName = ^{return @"dylbert";};
     
@@ -26,6 +27,7 @@ int main(int argc, char **argv)
     NSString *dylibDesc = @"The dylib that will be added to the app.";
     [options registerOption:'d' long:@"dylib" description:dylibDesc
                       flags:GBValueRequired];
+    
     [options registerOption:'h' long:@"help" description:@"Display help."
                       flags:GBValueNone];
     __block BOOL printHelp = FALSE;
@@ -53,15 +55,36 @@ int main(int argc, char **argv)
                 {
                     printHelp = TRUE;
                 }
-
-                [settings addArgument:value];
+                                
+                [settings setObject:value forKey:option];
+                [settingsDict setObject:value forKey:option];
                 break;
         }
     }];
     
-    if (printHelp == TRUE)
+    if (printHelp == TRUE || argc < 2)
     {
         [options printHelp];
+        return 0;
+    }
+            
+    NSString *dylibPath;
+    NSString *targetPath;
+    
+    @try
+    {
+        dylibPath = [settingsDict valueForKey:@"dylib"];
+        targetPath = [settingsDict valueForKey:@"target"];
+    }
+    @catch (NSException *exception)
+    {
+        printf("fail\n");
+    }
+    
+    BOOL success = [PatchHelper insertDylib:dylibPath inTarget:targetPath];
+    if (!success)
+    {
+        printf("fail\n");
     }
 }
     
