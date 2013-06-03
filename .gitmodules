@@ -1,0 +1,6 @@
+[submodule "dylbert/Dependencies/Krush"]
+	path = dylbert/Dependencies/Krush
+	url = https://github.com/bsmt/Krush
+[submodule "dylbert/Dependencies/GBCli"]
+	path = dylbert/Dependencies/GBCli
+	url = https://github.com/tomaz/GBCli

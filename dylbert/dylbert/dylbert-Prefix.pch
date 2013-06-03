@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'dylbert' target in the 'dylbert' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
