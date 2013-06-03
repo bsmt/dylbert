@@ -10,31 +10,30 @@
 		FAD8C57B175D0E65004EEEC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD8C57A175D0E65004EEEC7 /* Foundation.framework */; };
 		FAD8C57E175D0E65004EEEC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C57D175D0E65004EEEC7 /* main.m */; };
 		FAD8C582175D0E65004EEEC7 /* dylbert.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FAD8C581175D0E65004EEEC7 /* dylbert.1 */; };
+		FAD8C5C8175D125B004EEEC7 /* GBCommandLineParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C5C1175D125B004EEEC7 /* GBCommandLineParser.m */; };
+		FAD8C5C9175D125B004EEEC7 /* GBOptionsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C5C3175D125B004EEEC7 /* GBOptionsHelper.m */; };
+		FAD8C5CA175D125B004EEEC7 /* GBSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C5C5175D125B004EEEC7 /* GBSettings.m */; };
+		FAD8C5F9175D1265004EEEC7 /* Assembler.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C5CD175D1265004EEEC7 /* Assembler.m */; };
+		FAD8C5FA175D1265004EEEC7 /* Binary.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C5CF175D1265004EEEC7 /* Binary.m */; };
+		FAD8C5FB175D1265004EEEC7 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C5D1175D1265004EEEC7 /* Command.m */; };
+		FAD8C5FC175D1265004EEEC7 /* Header.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C5D5175D1265004EEEC7 /* Header.m */; };
+		FAD8C5FD175D1265004EEEC7 /* MachO+Symbol.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C5D9175D1265004EEEC7 /* MachO+Symbol.m */; };
+		FAD8C5FE175D1265004EEEC7 /* MachO.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C5DB175D1265004EEEC7 /* MachO.m */; };
+		FAD8C5FF175D1265004EEEC7 /* NSData+Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C5DD175D1265004EEEC7 /* NSData+Conversion.m */; };
+		FAD8C600175D1265004EEEC7 /* NSData+Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C5DF175D1265004EEEC7 /* NSData+Digest.m */; };
+		FAD8C601175D1265004EEEC7 /* NSData+Endian.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C5E1175D1265004EEEC7 /* NSData+Endian.m */; };
+		FAD8C602175D1265004EEEC7 /* NSData+Reading.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C5E3175D1265004EEEC7 /* NSData+Reading.m */; };
+		FAD8C603175D1265004EEEC7 /* NSData+Search.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C5E5175D1265004EEEC7 /* NSData+Search.m */; };
+		FAD8C604175D1265004EEEC7 /* NSData+Split.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C5E7175D1265004EEEC7 /* NSData+Split.m */; };
+		FAD8C605175D1265004EEEC7 /* ObjcCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C5E9175D1265004EEEC7 /* ObjcCategory.m */; };
+		FAD8C606175D1265004EEEC7 /* ObjcClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C5EB175D1265004EEEC7 /* ObjcClass.m */; };
+		FAD8C607175D1265004EEEC7 /* ObjcMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C5ED175D1265004EEEC7 /* ObjcMethod.m */; };
+		FAD8C608175D1265004EEEC7 /* ObjcModule.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C5EF175D1265004EEEC7 /* ObjcModule.m */; };
+		FAD8C609175D1265004EEEC7 /* ObjcSymtab.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C5F2175D1265004EEEC7 /* ObjcSymtab.m */; };
+		FAD8C60A175D1265004EEEC7 /* Patcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C5F4175D1265004EEEC7 /* Patcher.m */; };
+		FAD8C60B175D1265004EEEC7 /* SegmentCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C5F6175D1265004EEEC7 /* SegmentCommand.m */; };
+		FAD8C60C175D1265004EEEC7 /* SymtabCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD8C5F8175D1265004EEEC7 /* SymtabCommand.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		FAD8C5AE175D114C004EEEC7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FAD8C5AA175D114C004EEEC7 /* GBCli.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 734849FC1511FD010031EF85;
-			remoteInfo = GBCli;
-		};
-		FAD8C5B6175D1151004EEEC7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FAD8C5B0175D1151004EEEC7 /* Krush.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4602AFCF161E3AA1003C9EAC;
-			remoteInfo = Krush;
-		};
-		FAD8C5B8175D1151004EEEC7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FAD8C5B0175D1151004EEEC7 /* Krush.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 46C5EBE3161E746900064436;
-			remoteInfo = Tests;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		FAD8C575175D0E65004EEEC7 /* CopyFiles */ = {
@@ -55,8 +54,56 @@
 		FAD8C57D175D0E65004EEEC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAD8C580175D0E65004EEEC7 /* dylbert-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dylbert-Prefix.pch"; sourceTree = "<group>"; };
 		FAD8C581175D0E65004EEEC7 /* dylbert.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = dylbert.1; sourceTree = "<group>"; };
-		FAD8C5AA175D114C004EEEC7 /* GBCli.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GBCli.xcodeproj; path = Dependencies/GBCli/GBCli.xcodeproj; sourceTree = "<group>"; };
-		FAD8C5B0175D1151004EEEC7 /* Krush.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Krush.xcodeproj; path = Dependencies/Krush/Krush.xcodeproj; sourceTree = "<group>"; };
+		FAD8C5C0175D125B004EEEC7 /* GBCommandLineParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBCommandLineParser.h; path = src/GBCommandLineParser.h; sourceTree = "<group>"; };
+		FAD8C5C1175D125B004EEEC7 /* GBCommandLineParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBCommandLineParser.m; path = src/GBCommandLineParser.m; sourceTree = "<group>"; };
+		FAD8C5C2175D125B004EEEC7 /* GBOptionsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBOptionsHelper.h; path = src/GBOptionsHelper.h; sourceTree = "<group>"; };
+		FAD8C5C3175D125B004EEEC7 /* GBOptionsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBOptionsHelper.m; path = src/GBOptionsHelper.m; sourceTree = "<group>"; };
+		FAD8C5C4175D125B004EEEC7 /* GBSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBSettings.h; path = src/GBSettings.h; sourceTree = "<group>"; };
+		FAD8C5C5175D125B004EEEC7 /* GBSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBSettings.m; path = src/GBSettings.m; sourceTree = "<group>"; };
+		FAD8C5CC175D1265004EEEC7 /* Assembler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assembler.h; sourceTree = "<group>"; };
+		FAD8C5CD175D1265004EEEC7 /* Assembler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assembler.m; sourceTree = "<group>"; };
+		FAD8C5CE175D1265004EEEC7 /* Binary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Binary.h; sourceTree = "<group>"; };
+		FAD8C5CF175D1265004EEEC7 /* Binary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Binary.m; sourceTree = "<group>"; };
+		FAD8C5D0175D1265004EEEC7 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		FAD8C5D1175D1265004EEEC7 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		FAD8C5D3175D1265004EEEC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAD8C5D4175D1265004EEEC7 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		FAD8C5D5175D1265004EEEC7 /* Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Header.m; sourceTree = "<group>"; };
+		FAD8C5D6175D1265004EEEC7 /* Krush-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Krush-Info.plist"; sourceTree = "<group>"; };
+		FAD8C5D7175D1265004EEEC7 /* Krush-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Krush-Prefix.pch"; sourceTree = "<group>"; };
+		FAD8C5D8175D1265004EEEC7 /* MachO+Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MachO+Symbol.h"; sourceTree = "<group>"; };
+		FAD8C5D9175D1265004EEEC7 /* MachO+Symbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MachO+Symbol.m"; sourceTree = "<group>"; };
+		FAD8C5DA175D1265004EEEC7 /* MachO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MachO.h; sourceTree = "<group>"; };
+		FAD8C5DB175D1265004EEEC7 /* MachO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MachO.m; sourceTree = "<group>"; };
+		FAD8C5DC175D1265004EEEC7 /* NSData+Conversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Conversion.h"; sourceTree = "<group>"; };
+		FAD8C5DD175D1265004EEEC7 /* NSData+Conversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Conversion.m"; sourceTree = "<group>"; };
+		FAD8C5DE175D1265004EEEC7 /* NSData+Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Digest.h"; sourceTree = "<group>"; };
+		FAD8C5DF175D1265004EEEC7 /* NSData+Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Digest.m"; sourceTree = "<group>"; };
+		FAD8C5E0175D1265004EEEC7 /* NSData+Endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Endian.h"; sourceTree = "<group>"; };
+		FAD8C5E1175D1265004EEEC7 /* NSData+Endian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Endian.m"; sourceTree = "<group>"; };
+		FAD8C5E2175D1265004EEEC7 /* NSData+Reading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Reading.h"; sourceTree = "<group>"; };
+		FAD8C5E3175D1265004EEEC7 /* NSData+Reading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Reading.m"; sourceTree = "<group>"; };
+		FAD8C5E4175D1265004EEEC7 /* NSData+Search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Search.h"; sourceTree = "<group>"; };
+		FAD8C5E5175D1265004EEEC7 /* NSData+Search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Search.m"; sourceTree = "<group>"; };
+		FAD8C5E6175D1265004EEEC7 /* NSData+Split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Split.h"; sourceTree = "<group>"; };
+		FAD8C5E7175D1265004EEEC7 /* NSData+Split.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Split.m"; sourceTree = "<group>"; };
+		FAD8C5E8175D1265004EEEC7 /* ObjcCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcCategory.h; sourceTree = "<group>"; };
+		FAD8C5E9175D1265004EEEC7 /* ObjcCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcCategory.m; sourceTree = "<group>"; };
+		FAD8C5EA175D1265004EEEC7 /* ObjcClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcClass.h; sourceTree = "<group>"; };
+		FAD8C5EB175D1265004EEEC7 /* ObjcClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcClass.m; sourceTree = "<group>"; };
+		FAD8C5EC175D1265004EEEC7 /* ObjcMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcMethod.h; sourceTree = "<group>"; };
+		FAD8C5ED175D1265004EEEC7 /* ObjcMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcMethod.m; sourceTree = "<group>"; };
+		FAD8C5EE175D1265004EEEC7 /* ObjcModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcModule.h; sourceTree = "<group>"; };
+		FAD8C5EF175D1265004EEEC7 /* ObjcModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcModule.m; sourceTree = "<group>"; };
+		FAD8C5F0175D1265004EEEC7 /* ObjcStructs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcStructs.h; sourceTree = "<group>"; };
+		FAD8C5F1175D1265004EEEC7 /* ObjcSymtab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcSymtab.h; sourceTree = "<group>"; };
+		FAD8C5F2175D1265004EEEC7 /* ObjcSymtab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcSymtab.m; sourceTree = "<group>"; };
+		FAD8C5F3175D1265004EEEC7 /* Patcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patcher.h; sourceTree = "<group>"; };
+		FAD8C5F4175D1265004EEEC7 /* Patcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patcher.m; sourceTree = "<group>"; };
+		FAD8C5F5175D1265004EEEC7 /* SegmentCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentCommand.h; sourceTree = "<group>"; };
+		FAD8C5F6175D1265004EEEC7 /* SegmentCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentCommand.m; sourceTree = "<group>"; };
+		FAD8C5F7175D1265004EEEC7 /* SymtabCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymtabCommand.h; sourceTree = "<group>"; };
+		FAD8C5F8175D1265004EEEC7 /* SymtabCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymtabCommand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,27 +165,76 @@
 		FAD8C5A9175D109E004EEEC7 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				FAD8C5B0175D1151004EEEC7 /* Krush.xcodeproj */,
-				FAD8C5AA175D114C004EEEC7 /* GBCli.xcodeproj */,
+				FAD8C5CB175D1265004EEEC7 /* Krush */,
+				FAD8C5BA175D125B004EEEC7 /* GBCli */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		FAD8C5AB175D114C004EEEC7 /* Products */ = {
+		FAD8C5BA175D125B004EEEC7 /* GBCli */ = {
 			isa = PBXGroup;
 			children = (
-				FAD8C5AF175D114C004EEEC7 /* GBCli */,
+				FAD8C5C0175D125B004EEEC7 /* GBCommandLineParser.h */,
+				FAD8C5C1175D125B004EEEC7 /* GBCommandLineParser.m */,
+				FAD8C5C2175D125B004EEEC7 /* GBOptionsHelper.h */,
+				FAD8C5C3175D125B004EEEC7 /* GBOptionsHelper.m */,
+				FAD8C5C4175D125B004EEEC7 /* GBSettings.h */,
+				FAD8C5C5175D125B004EEEC7 /* GBSettings.m */,
 			);
-			name = Products;
+			name = GBCli;
+			path = Dependencies/GBCli/GBCli;
 			sourceTree = "<group>";
 		};
-		FAD8C5B1175D1151004EEEC7 /* Products */ = {
+		FAD8C5CB175D1265004EEEC7 /* Krush */ = {
 			isa = PBXGroup;
 			children = (
-				FAD8C5B7175D1151004EEEC7 /* Krush.framework */,
-				FAD8C5B9175D1151004EEEC7 /* Tests.app */,
+				FAD8C5CC175D1265004EEEC7 /* Assembler.h */,
+				FAD8C5CD175D1265004EEEC7 /* Assembler.m */,
+				FAD8C5CE175D1265004EEEC7 /* Binary.h */,
+				FAD8C5CF175D1265004EEEC7 /* Binary.m */,
+				FAD8C5D0175D1265004EEEC7 /* Command.h */,
+				FAD8C5D1175D1265004EEEC7 /* Command.m */,
+				FAD8C5D2175D1265004EEEC7 /* InfoPlist.strings */,
+				FAD8C5D4175D1265004EEEC7 /* Header.h */,
+				FAD8C5D5175D1265004EEEC7 /* Header.m */,
+				FAD8C5D6175D1265004EEEC7 /* Krush-Info.plist */,
+				FAD8C5D7175D1265004EEEC7 /* Krush-Prefix.pch */,
+				FAD8C5D8175D1265004EEEC7 /* MachO+Symbol.h */,
+				FAD8C5D9175D1265004EEEC7 /* MachO+Symbol.m */,
+				FAD8C5DA175D1265004EEEC7 /* MachO.h */,
+				FAD8C5DB175D1265004EEEC7 /* MachO.m */,
+				FAD8C5DC175D1265004EEEC7 /* NSData+Conversion.h */,
+				FAD8C5DD175D1265004EEEC7 /* NSData+Conversion.m */,
+				FAD8C5DE175D1265004EEEC7 /* NSData+Digest.h */,
+				FAD8C5DF175D1265004EEEC7 /* NSData+Digest.m */,
+				FAD8C5E0175D1265004EEEC7 /* NSData+Endian.h */,
+				FAD8C5E1175D1265004EEEC7 /* NSData+Endian.m */,
+				FAD8C5E2175D1265004EEEC7 /* NSData+Reading.h */,
+				FAD8C5E3175D1265004EEEC7 /* NSData+Reading.m */,
+				FAD8C5E4175D1265004EEEC7 /* NSData+Search.h */,
+				FAD8C5E5175D1265004EEEC7 /* NSData+Search.m */,
+				FAD8C5E6175D1265004EEEC7 /* NSData+Split.h */,
+				FAD8C5E7175D1265004EEEC7 /* NSData+Split.m */,
+				FAD8C5E8175D1265004EEEC7 /* ObjcCategory.h */,
+				FAD8C5E9175D1265004EEEC7 /* ObjcCategory.m */,
+				FAD8C5EA175D1265004EEEC7 /* ObjcClass.h */,
+				FAD8C5EB175D1265004EEEC7 /* ObjcClass.m */,
+				FAD8C5EC175D1265004EEEC7 /* ObjcMethod.h */,
+				FAD8C5ED175D1265004EEEC7 /* ObjcMethod.m */,
+				FAD8C5EE175D1265004EEEC7 /* ObjcModule.h */,
+				FAD8C5EF175D1265004EEEC7 /* ObjcModule.m */,
+				FAD8C5F0175D1265004EEEC7 /* ObjcStructs.h */,
+				FAD8C5F1175D1265004EEEC7 /* ObjcSymtab.h */,
+				FAD8C5F2175D1265004EEEC7 /* ObjcSymtab.m */,
+				FAD8C5F3175D1265004EEEC7 /* Patcher.h */,
+				FAD8C5F4175D1265004EEEC7 /* Patcher.m */,
+				FAD8C5F5175D1265004EEEC7 /* SegmentCommand.h */,
+				FAD8C5F6175D1265004EEEC7 /* SegmentCommand.m */,
+				FAD8C5F7175D1265004EEEC7 /* SymtabCommand.h */,
+				FAD8C5F8175D1265004EEEC7 /* SymtabCommand.m */,
 			);
-			name = Products;
+			name = Krush;
+			path = Dependencies/Krush/Krush;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,16 +276,6 @@
 			mainGroup = FAD8C56E175D0E65004EEEC7;
 			productRefGroup = FAD8C578175D0E65004EEEC7 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = FAD8C5AB175D114C004EEEC7 /* Products */;
-					ProjectRef = FAD8C5AA175D114C004EEEC7 /* GBCli.xcodeproj */;
-				},
-				{
-					ProductGroup = FAD8C5B1175D1151004EEEC7 /* Products */;
-					ProjectRef = FAD8C5B0175D1151004EEEC7 /* Krush.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				FAD8C576175D0E65004EEEC7 /* dylbert */,
@@ -197,40 +283,50 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		FAD8C5AF175D114C004EEEC7 /* GBCli */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = GBCli;
-			remoteRef = FAD8C5AE175D114C004EEEC7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FAD8C5B7175D1151004EEEC7 /* Krush.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Krush.framework;
-			remoteRef = FAD8C5B6175D1151004EEEC7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FAD8C5B9175D1151004EEEC7 /* Tests.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = Tests.app;
-			remoteRef = FAD8C5B8175D1151004EEEC7 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXSourcesBuildPhase section */
 		FAD8C573175D0E65004EEEC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FAD8C57E175D0E65004EEEC7 /* main.m in Sources */,
+				FAD8C5C8175D125B004EEEC7 /* GBCommandLineParser.m in Sources */,
+				FAD8C5C9175D125B004EEEC7 /* GBOptionsHelper.m in Sources */,
+				FAD8C5CA175D125B004EEEC7 /* GBSettings.m in Sources */,
+				FAD8C5F9175D1265004EEEC7 /* Assembler.m in Sources */,
+				FAD8C5FA175D1265004EEEC7 /* Binary.m in Sources */,
+				FAD8C5FB175D1265004EEEC7 /* Command.m in Sources */,
+				FAD8C5FC175D1265004EEEC7 /* Header.m in Sources */,
+				FAD8C5FD175D1265004EEEC7 /* MachO+Symbol.m in Sources */,
+				FAD8C5FE175D1265004EEEC7 /* MachO.m in Sources */,
+				FAD8C5FF175D1265004EEEC7 /* NSData+Conversion.m in Sources */,
+				FAD8C600175D1265004EEEC7 /* NSData+Digest.m in Sources */,
+				FAD8C601175D1265004EEEC7 /* NSData+Endian.m in Sources */,
+				FAD8C602175D1265004EEEC7 /* NSData+Reading.m in Sources */,
+				FAD8C603175D1265004EEEC7 /* NSData+Search.m in Sources */,
+				FAD8C604175D1265004EEEC7 /* NSData+Split.m in Sources */,
+				FAD8C605175D1265004EEEC7 /* ObjcCategory.m in Sources */,
+				FAD8C606175D1265004EEEC7 /* ObjcClass.m in Sources */,
+				FAD8C607175D1265004EEEC7 /* ObjcMethod.m in Sources */,
+				FAD8C608175D1265004EEEC7 /* ObjcModule.m in Sources */,
+				FAD8C609175D1265004EEEC7 /* ObjcSymtab.m in Sources */,
+				FAD8C60A175D1265004EEEC7 /* Patcher.m in Sources */,
+				FAD8C60B175D1265004EEEC7 /* SegmentCommand.m in Sources */,
+				FAD8C60C175D1265004EEEC7 /* SymtabCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAD8C5D2175D1265004EEEC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD8C5D3175D1265004EEEC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FAD8C583175D0E65004EEEC7 /* Debug */ = {
